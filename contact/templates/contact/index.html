@@ -16,12 +16,15 @@
                     <th class="table-header">Email</th>
                 </tr>
             </thead>
-            
+
             <tbody>
                 {% for contact in contacts %}
                     <tr class="table-row">
                         <td class="table-cell">
-                            <a href="#" class="table-link">
+                            <a 
+                                href="{% url "contact:contact" contact.id %}"
+                                class="table-link"
+                            >
                                 {{contact.id}}
                             </a>
                         </td>

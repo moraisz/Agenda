@@ -146,7 +146,7 @@ svg {
     color: var(--clr-black);
 }
 
-.table-cel,
+.table-cell,
 .table-header {
     padding: var(--spacing);
 }
